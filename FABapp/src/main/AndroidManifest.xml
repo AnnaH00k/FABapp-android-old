@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Hook.FABapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FABapp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp">
+        <activity
+            android:name="com.Hook.com.Hook.FABapp.WirtInfoActivity"
+            android:label="Wirtschafts- und Sozialkunde"
+            android:parentActivityName=".WirtActivity" />
+        <activity
+            android:name=".BaedInfoActivity"
+            android:label="Bädertechnik"
+            android:parentActivityName=".BaedActivity" />
+        <activity
+            android:name=".ResInfoActivity"
+            android:label="Retten,Erstversorgen,Schwimmen"
+            android:parentActivityName=".RESActivity" />
+        <activity
+            android:name=".ResultActivity"
+            android:label="Ergebnis" />
+        <activity
+            android:name=".BadInfoActivity"
+            android:label="Badebetrieb"
+            android:parentActivityName=".BadActivity" />
+        <activity
+            android:name=".WirtActivity"
+            android:label="Wirtschafts- und Sozialkunde"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BaedActivity"
+            android:label="Bädertechnik"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BadActivity"
+            android:label="Badebetrieb"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RESActivity"
+            android:label="Retten,Erstversorgen,Schwimmen"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

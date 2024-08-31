@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaedInfoActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="1"
+        app:layout_constraintWidth_percent="0.95"
+        android:text="Bezirksregierung Düsseldorf [BZD].(2006, April). Katalog von Prüfungsfragen für die Zwischenprüfungen und Abschlussprüfungen im Ausbildungsberuf „Fachangestellte für Bäderbetriebe“ / „Fachangestellter für Bäderbetriebe“ (FAB) in Nordrhein-Westfalen.  \n \n Ruß, H. (2015). Chemie für den Badebetrieb (6., durchgesehene und überarbeitete Auflage). Wolfhagen: Litho Verlag e.K. \n \n Lindemann, D. (2016). Bädertechnik für Betrieb und Ausbildung (9., überarbeitete Auflage). Wolfhagen: Litho-Verlag e.K. \n \n https://fabapp.jimdosite.com/app-info/ "
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
