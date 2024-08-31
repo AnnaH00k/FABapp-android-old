@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
-            android:name="com.Hook.com.Hook.FABapp.WirtInfoActivity"
+            android:name=".WirtInfoActivity"
             android:label="Wirtschafts- und Sozialkunde"
             android:parentActivityName=".WirtActivity" />
         <activity
@@ -44,7 +44,8 @@
             android:name=".RESActivity"
             android:label="Retten,Erstversorgen,Schwimmen"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

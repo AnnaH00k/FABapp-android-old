@@ -54,8 +54,7 @@ public class BadActivity extends AppCompatActivity implements View.OnClickListen
         score = 0;
     }
 
-    private void getQuestionsList() {
-        questionBadList = new ArrayList<>();
+    private void getQuestionsList() { questionBadList = new ArrayList<>();
 
 
 
